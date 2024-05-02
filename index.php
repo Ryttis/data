@@ -1,20 +1,6 @@
 <?php
 
-namespace App\Utils\External\Import\Eshop\Order;
-
-use App\Entity\Country;
-use App\Entity\Customer;
-use App\Entity\EshopOrder;
-use App\Entity\EshopOrderLine;
-use App\Entity\Product;
-use App\Entity\ProductSeries;
-use App\Enum\EshopOrderStatus;
-use App\Model\Eshop\Customer\CustomerModel;
-use App\Model\Eshop\Order\EshopOrderModel;
-use App\Utils\External\Import\Provider\ProductSeriesProvider;
-use DateTime;
-use Doctrine\ORM\EntityManagerInterface;
-use Psr\Log\LoggerInterface;
+namespace App\Import\Eshop\Order;
 
 final class EshopOrderImporter
 {
